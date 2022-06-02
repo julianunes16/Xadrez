@@ -1,0 +1,109 @@
+.xadrez{
+    position: relative;
+    width: 620px;
+    height: 625px;
+ 
+}
+.quadrado{
+    width: 75px;
+    height: 75px;
+    border: 1.5px solid #000;
+    display: inline-block;
+    margin: -2px;
+}
+
+.preto{
+    background-color: #d400ff;
+}
+
+.branco{
+    background-color: white;
+}
+
+.ponei{
+    position: relative;
+    width: 70px;
+    height: 60px;
+    top: 75px;
+    left: 80px;
+    animation: cavalo 10s ease infinite;
+}
+
+@keyframes cavalo{  
+    0%{
+        top: 75px;
+        left: 240px;
+    }
+    5.26%{
+        top: 150px;
+        left: 240px;
+    }
+    10.52%{
+        top: 150px;
+        left: 320px;
+    }
+    15.78%{
+        top: 300px;
+        left: 320px;
+    }
+    21%{
+        top: 300px;
+        left: 400px;
+    }
+    26.3%{
+        top: 450px;
+        left: 400px;
+    }
+    31.56%{
+        top: 450px;
+        left: 240px;
+    }
+    36.82%{
+        top: 535px;
+        left: 240px;
+    }
+    42%{
+        top: 535px;
+        left: 75px;
+    }
+    47.34%{
+        top: 610px;
+        left: 75px;
+    }
+    52.6%{
+        top: 535px;
+        left: 75px;
+    }
+    57.86%{
+        top: 535px;
+        left: 240px;
+    }
+    63.12%{
+        top: 450px;
+        left: 240px;
+    }
+    68.38%{
+        top: 450px;
+        left: 400px;
+    }
+    73.64%{
+        top: 300px;
+        left: 400px;
+    }
+    79.9%{
+        top: 300px;
+        left: 320px;
+    }
+    84.16%{
+        top: 150px;
+        left: 320px;
+    }
+    89.42%{
+        top: 150px;
+        left: 240px;
+    }
+    100%{
+        top: 75px;
+        left: 240px;
+    }
+}
